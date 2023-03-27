@@ -81,7 +81,7 @@
                             </select>
                             <div class="form-group">
                                 <label for="alamat">Alamat</label>
-                                <textarea class="form-control mb-3" name="alamat" id="Alamat" required></textarea>
+                                <input type="textarea" class="form-control" name="alamat" id="alamat" required>
                             </div>
                             <div class="text-center"><button type="submit">Register</button></div>
                             <p class="mt-4">

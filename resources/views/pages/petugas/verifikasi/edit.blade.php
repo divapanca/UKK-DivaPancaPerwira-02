@@ -24,6 +24,12 @@
                             href="#">:
                             &nbsp; {{ $edit->laporan }}</a>
                     </li>
+                    <li class="mb-1"><span data-feather="home" class="feather-sm me-1"></span> Jenis Kelamin : {{ $edit->us->jeniskelamin }}
+                    </li>
+                    <li class="mb-1"><span data-feather="home" class="feather-sm me-1"></span> Lokasi Kejadian <a
+                            href="#">:
+                            &nbsp; {{ $edit->alamat }}</a>
+                    </li>
                     <li class="mb-1"><span data-feather="home" class="feather-sm me-1"></span> Status <a
                             href="#">:
                             @switch($edit)

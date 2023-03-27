@@ -29,6 +29,8 @@ class RegisterController extends Controller
             'telp'  =>$request->telp,
             'password'  => Hash::make($request->password),
             'email'  =>$request->email,
+            'jeniskelamin'  =>$request->jeniskelamin,
+            'alamat'  =>$request->alamat,
         ]);
 
         return redirect()->route('form-login')->with('message','Data added Successfully');;

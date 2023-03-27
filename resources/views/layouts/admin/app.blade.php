@@ -40,7 +40,7 @@ $di=session()->get('name_petugas');
         <nav id="sidebar" class="sidebar js-sidebar">
             <div class="sidebar-content js-simplebar">
                 <a class="sidebar-brand" href="index.html">
-                    <span class="align-middle">PMS</span>
+                    <span class="align-middle">PENGADUAN MASYARAKAT <br>CISARUA</span>
                 </a>
 
                 <ul class="sidebar-nav">
@@ -151,8 +151,7 @@ $di=session()->get('name_petugas');
                                 </span>
                             </a>
                             <div class="dropdown-menu dropdown-menu-end">
-                                <a class="dropdown-item" href="pages-profile.html"><i class="align-middle me-1"
-                                        data-feather="user"></i>Profile</a>
+                                
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="{{ url('/logout') }}">Log out</a>
                             </div>

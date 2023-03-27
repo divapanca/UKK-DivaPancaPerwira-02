@@ -18,7 +18,7 @@ class UserSeeder extends Seeder
     {
         DB::table('users')->insert([
             'nik' => '3210125678930000',
-            'name' => 'Hamba Allah',
+            'name' => 'User',
             'username' => Str::random(10),
             'telp' => '0855955999',
             'email' => Str::random(10).'@gmail.com',

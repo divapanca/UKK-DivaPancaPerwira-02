@@ -72,7 +72,7 @@
                     <h2></h2>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-                    <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+                    <img src="assets/img/hero-img.png" class="img-fluid " alt="">
                 </div>
             </div>
         </div>
@@ -171,7 +171,19 @@
         <!-- Article -->
         <article class="overflow-hidden rounded-lg shadow-lg ">
           <header class="leading-tight p-2 md:p-4 text-center ">
-            <h1 class="text-lg font-bold">1. Tulis Laporan</h1>
+            <h1 class="text-lg font-bold">1. Registrasi dan Login</h1>
+            <p class="text-grey-darker text-sm py-4">
+              Masukan data diri Anda.
+            </p>
+          </header>
+        </article>
+        <!-- END Article -->
+      </div>
+      <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/4 mb-4">
+        <!-- Article -->
+        <article class="overflow-hidden rounded-lg shadow-lg ">
+          <header class="leading-tight p-2 md:p-4 text-center ">
+            <h1 class="text-lg font-bold">2. Tulis Laporan</h1>
             <p class="text-grey-darker text-sm py-4">
               Tulis laporan keluhan Anda dengan jelas.
             </p>
@@ -186,7 +198,7 @@
         <article class="overflow-hidden rounded-lg shadow-lg text-gray-800">
      
           <header class="leading-tight p-2 md:p-4 text-center">
-            <h1 class="text-lg font-bold">2. Proses Verifikasi</h1>
+            <h1 class="text-lg font-bold">3. Proses Verifikasi</h1>
             <p class="text-grey-darker text-sm py-4">
               Tunggu sampai laporan Anda di verifikasi.
             </p>
@@ -201,7 +213,7 @@
         <article class="overflow-hidden rounded-lg shadow-lg  text-gray-800">
        
           <header class="leading-tight p-2 md:p-4 text-center">
-            <h1 class="text-lg font-bold">3. Tindak Lanjut</h1>
+            <h1 class="text-lg font-bold">4. Tindak Lanjut</h1>
             <p class="text-grey-darker text-sm py-4">
               Laporan Anda sedang dalam tindak lanjut.
             </p>
@@ -216,7 +228,7 @@
         <article class="overflow-hidden rounded-lg shadow-lg  text-gray-800">
          
           <header class="leading-tight p-2 md:p-4 text-center">
-            <h1 class="text-lg font-bold">4. Selesai</h1>
+            <h1 class="text-lg font-bold">5. Selesai</h1>
             <p class="text-grey-darker text-sm py-4">
               Laporan pengaduan telah selesai ditindak.
             </p>
