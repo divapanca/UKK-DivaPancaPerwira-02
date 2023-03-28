@@ -1,6 +1,6 @@
 <form action="{{ route('petugas.store') }}" method="POST" enctype="multipart/form-data">
     @csrf
-    <label for="">Name</label><br>
+    <label for="">Nama</label><br>
     <input class="form-control mb-3" type="text" name="name_petugas">
     <label for="">Username</label>
     <input class="form-control mb-3" type="text" name="username">

@@ -9,7 +9,7 @@
     <meta name="author" content="AdminKit">
     <meta name="keywords"
         content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
-    <title>Pengaduan Masyarakat</title>
+    <title>Pengaduan Masyarakat Cisarua</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 

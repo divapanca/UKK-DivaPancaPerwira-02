@@ -13,73 +13,83 @@
 </head>
 <style>
     img {
-        border: 1px solid #ddd;
-        border-radius: 4px;
+        border: 0px solid #ddd;
+        border-radius: 0px;
         padding: 5px;
         width: 100px;
     }
-
 </style>`
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-9">
-                <h5>LAPORAN PENGADUAN MASYARAKAT SUKAMAHI</h5>
-            </div>
-            <div class="col-4">
-        <img src="img/icons/icon-48x48.png" alt="pp" class="center">
-            </div>
-            <div class="col-6">
-                <H6>SUKAMAHI BERSATU</H6>
-            </div>
-        </div>
-    </div>
-    </div>
-    <div class="container">
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>No</th>
-                    <th>Tanggal Kejadian</th>
-                    <th>Nama Pelapor</th>
-                    <th>Isi Laporan</th>
-                    <th>alamat</th>
-                    <th>Tanggapan</th>
-                    <th>Tanggal Tanggapan</th>
-                    <th>Status</th>
-                </tr>
-            </thead>
+    <header style=" page-break-inside: avoid;">
+        <table>
             <tbody>
-                @foreach ($pengaduan as $k => $v)
                 <tr>
-                    <td>{{ $k += 1 }}</td>
-                    <td>{{ $v->created_at   }}</td>
-                    <td>{{ $v->us->name}}</td>
-                    <td>{{ $v->laporan}}</td>
-                    <td>{{ $v->alamat}}</td>
-                    <td>
-                        @switch($v)
-                        @case($v->status == '0')
-                        <td>Belum Ada Tanggapan</td>
-                        @break
-                        @default
-                        {{ $v->tanga->tanggapan}} Oleh {{ $v->tanga->petugas->level }}</td>
-                        @endswitch
-                        <td>
-                            @switch($v)
-                            @case($v->status == '0')
-                            <td>Belum Ada Tanggapan</td>
-                            @break
-                            @default
-                            {{ $v->tanga->created_at}}</td>
-                            @endswitch
-                    <td>{{ $v->status }}</td>
+                    <td rowspan="2">
+                        <img src="img/icons/icon-48x48.png" alt="pp" class="center">
+                    </td>
+                    <td colspan="2">
+                        <h2>&nbsp;&nbsp;PENGADUAN MASYARAKAT CISARUA</h2>
+                    </td>
                 </tr>
-                @endforeach
+                <tr>
+                    <td colspan="2">
+                        <h6>&nbsp;&nbsp;KEC.Cisarua KAB.Bogor PROV.Jawa Barat</h6>
+                    </td>
+                </tr>
             </tbody>
         </table>
-    </div>
+        <hr style="height:4px;border-width:0;color:gray;background-color:black">
+        <div class="d-flex justify-content-center">
+            <h5 class="text-center">LAPORAN PENGADUAN MASYARAKAT</h5>
+            <h6 class="text-center mb-2"> PERIODE : {{ \Carbon\Carbon::parse($from)->format('d-m-Y')}} Sampai
+                {{ \Carbon\Carbon::parse($to)->format('d-m-Y')}}</h6>
+        </div>
+    </header>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>NIK</th>
+                <th>Tanggal Kejadian</th>
+                <th>Nama Pelapor</th>
+                <th>Isi Laporan</th>
+                <th>Tanggapan</th>
+                <th>Tanggal Tanggapan</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach ($pengaduan as $k => $v)
+            <tr>
+                <td>{{ $k += 1 }}</td>
+                <td>{{ $v->us->nik }}</td>
+                <td>{{ $v->tgl_pengaduan}}</td>
+                <td>{{ $v->us->name}}</td>
+                <td>{{ $v->laporan}}</td>
+                <td>
+                    @switch($v)
+                    @case($v->status == '0')
+                Belum Ada Tanggapan
+                @break
+                @default
+                {{ $v->tanga->tanggapan}} Oleh {{ $v->tanga->petugas->level }}</td>
+                @endswitch
+                <td>
+                    @switch($v)
+                    @case($v->status == '0')
+                Belum Ada Tanggapan
+                @break
+                @default
+                {{ $v->tanga->tgl_tanggapan}}</td>
+                @endswitch
+                <td>
+                    {{ $v->status }}
+                </td>
+            </tr>
+            @endforeach
+        </tbody>
+    </table>
 </body>
 
 </html>

@@ -2,15 +2,15 @@
 @section('content')
 
 <div class="row">
-    <div class="offset-2 col-md-8">
+    <div class="col-md-12">
         <div class="card flex-fill">
             <table class="table table-hover dataTable zero-configuration my-0">
                 <thead>
                     <tr>
-                        <th>Date</th>
+                        <th>Tanggal</th>
                         <th class="d-none d-xl-table-cell">Nama</th>
                         <th class="d-none d-xl-table-cell">Laporan</th>
-                        <th>Image</th>
+                        <th>Foto</th>
                         <th>Status</th>
                         {{-- <th class="d-none d-md-table-cell">Action</th> --}}
                     </tr>

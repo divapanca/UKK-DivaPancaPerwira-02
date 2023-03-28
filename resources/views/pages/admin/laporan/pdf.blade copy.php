@@ -23,7 +23,7 @@
                 <thead>
                     <tr>
                         <th scope="col">No</th>
-                        <th scope="col">Date</th>
+                        <th scope="col">Tanggal</th>
                         <th scope="col">NIK</th>
                         <th scope="col">Laporan</th>
                         <th scope="col">Status</th>
@@ -46,7 +46,7 @@
                         <span class="badge bg-info">Terverikasi</span>
                         @break
                         @case($item->status == '2')
-                        <span class="badge bg-warning">On Progress</span>
+                        <span class="badge bg-warning">Dalam Proses</span>
                         @break
                         @case($item->status == '3')
                         <span class="badge bg-success ">Selesai</span>

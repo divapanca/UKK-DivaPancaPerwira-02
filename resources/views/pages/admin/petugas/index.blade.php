@@ -29,7 +29,7 @@
             <table class="table table-hover dataTable zero-configuration my-0">
                 <thead>
                     <tr>
-                        <th>Name</th>
+                        <th>Nama</th>
                         <th class="d-none d-xl-table-cell">Username</th>
                         <th class="d-none d-xl-table-cell">No Telp.</th>
                         <th>Level</th>

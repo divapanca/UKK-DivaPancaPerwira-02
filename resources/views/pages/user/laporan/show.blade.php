@@ -29,7 +29,7 @@
                 <div class="portfolio-info">
                     <h3>Pengaduan Information</h3>
                     <ul>
-                        <li><strong>Tanggal Kejadian</strong>: {{ $show->datetime }}</li>
+                        <li><strong>Tanggal Kejadian</strong>: {{ $show->created_at }}</li>
                         <li><strong>Nama Pelapor</strong>: {{ $show->us->name }}</li>
                         <li><strong>NIK</strong>: {{ $show->us->nik }}</li>
                         <li><strong>Status</strong>:
@@ -70,7 +70,7 @@
                             Belum Ada Tanggapan
                             @break
                             @default
-                            {{ $show->tanga->datetime }}
+                            {{ $show->tanga->created_at }}
                             @endswitch
 
                         </li>

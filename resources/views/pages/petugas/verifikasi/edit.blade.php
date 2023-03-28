@@ -12,7 +12,7 @@
                 <div class="text-muted mb-2" style="text-align: center"><img
                         src="http://127.0.0.1:8000/image/{{ $edit->fhoto }}" width="150px"></div>
                 <ul class="list-unstyled mb-0">
-                    <li class="mb-1"><span data-feather="home" class="feather-sm me-1"></span> Date  : {{ $edit->tgl_pengaduan }}
+                    <li class="mb-1"><span data-feather="home" class="feather-sm me-1"></span> Tanggal : {{ $edit->tgl_pengaduan }}
                     </li>
                     <li class="mb-1"><span data-feather="home" class="feather-sm me-1"></span> Nama Pelapor : {{ $edit->us->name }}
                     </li>

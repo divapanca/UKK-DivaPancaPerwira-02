@@ -71,15 +71,20 @@ class DashboardController extends Controller
     {
         $pengaduan = Pengaduan::whereBetween('tgl_pengaduan', [$from, $to])->get();
         $penga = Tanggapan::all();
+        $from = $from;
+        $to = $to;
 
         // dd($pengaduan);
         $pdf = PDF::loadview('pages.admin.laporan.pdf', [
             'pengaduan' => $pengaduan,
             'penga' => $penga,
+            'from' => $from,
+            'to' => $to
+            
 
             ])->setPaper('a4', 'landscape');
         // dd($pdf);
-        return $pdf->download('laporan-pengaduan-sukamahi.pdf');
+        return $pdf->download('laporan-pengaduan-cisarua.pdf');
     }
 
 }

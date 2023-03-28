@@ -55,7 +55,7 @@
                                 <input type="number" class="form-control" name="nik" id="nik" required autofocus>
                             </div>
                             <div class="form-group">
-                                <label for="name">Name</label>
+                                <label for="name">Nama</label>
                                 <input type="text" class="form-control" name="name" id="name" required>
                             </div>
                             <div class="form-group">
@@ -81,7 +81,7 @@
                             </select>
                             <div class="form-group">
                                 <label for="alamat">Alamat</label>
-                                <input type="textarea" class="form-control" name="alamat" id="alamat" required>
+                                <textarea class="form-control" name="alamat" rows="10" required></textarea>
                             </div>
                             <div class="text-center"><button type="submit">Register</button></div>
                             <p class="mt-4">

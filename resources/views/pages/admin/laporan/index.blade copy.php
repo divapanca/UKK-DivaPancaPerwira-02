@@ -80,7 +80,7 @@
                 <thead>
                     <tr>
                         <th>No</th>
-                        <th>Date</th>
+                        <th>Tanggal</th>
                         <th class="d-none d-xl-table-cell">NIK</th>
                         <th class="d-none d-xl-table-cell">Laporan</th>
                         <th>Status</th>

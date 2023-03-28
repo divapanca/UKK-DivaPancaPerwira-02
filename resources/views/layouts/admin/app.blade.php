@@ -96,7 +96,7 @@ $di=session()->get('name_petugas');
 
                     <li class="sidebar-item {{ (request()->is('petugas-home')) ? 'active' : '' }}">
                         <a class="sidebar-link" href="{{route('petugas-home.index')}}">
-                            <i class="align-middle" data-feather="square"></i> <span class="align-middle">Home</span>
+                            <i class="align-middle" data-feather="square"></i> <span class="align-middle">Dashboard</span>
                         </a>
                     </li>
 
@@ -114,8 +114,7 @@ $di=session()->get('name_petugas');
                     </li>
                     <li class="sidebar-item {{ (request()->is('pengaduan-onprogress')) ? 'active' : '' }}">
                         <a class="sidebar-link" href="{{url('pengaduan-onprogress')}}">
-                            <i class="align-middle" data-feather="check-square"></i> <span class="align-middle">On
-                                Progres</span>
+                            <i class="align-middle" data-feather="check-square"></i> <span class="align-middle">Dalam Proses</span>
                         </a>
                     </li>
                     <li class="sidebar-item {{ (request()->is('pengaduan-selesai')) ? 'active' : '' }}">

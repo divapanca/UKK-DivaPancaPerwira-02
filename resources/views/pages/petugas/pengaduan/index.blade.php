@@ -8,12 +8,12 @@
             <table class="table table-hover dataTable zero-configuration my-0">
                 <thead>
                     <tr>
-                        <th>Date</th>
+                        <th>Tanggal</th>
                         <th class="d-none d-xl-table-cell">NIK</th>
                         <th class="d-none d-xl-table-cell">Laporan</th>
                         <th>Image</th>
                         <th>status</th>
-                        <th class="d-none d-md-table-cell">Desc</th>
+                        <th class="d-none d-md-table-cell">Action</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -33,7 +33,7 @@
                         <span class="badge bg-warning">Terverikasi</span>
                         @break
                         @case($item->status == 'proses')
-                        <span class="badge bg-info">On Progress</span>
+                        <span class="badge bg-info">Dalam Proses</span>
                         @break
                         @case($item->status == 'selesai')
                         <span class="badge bg-success">Selesai</span>

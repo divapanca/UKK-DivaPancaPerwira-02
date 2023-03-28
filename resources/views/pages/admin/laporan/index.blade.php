@@ -1,7 +1,7 @@
 @extends('layouts.admin.app');
 @section('content')
 <div class="row">
-    <div class="offset-2 col-md-8">
+    <div class="offset-4 col-md-5">
         <div class="card flex-fill">
 
             <div class="card flex-fill w-100">
@@ -34,7 +34,7 @@
                 <thead>
                     <tr>
                         <th>No</th>
-                        <th>Tanggal Kejadian</th>
+                        <th>Tanggal Pengaduan</th>
                         <th class="d-none d-xl-table-cell">Nama</th>
                         <th class="d-none d-xl-table-cell">Laporan</th>
                         <th class="d-none d-xl-table-cell">Tanggapan</th>

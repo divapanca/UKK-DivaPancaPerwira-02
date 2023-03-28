@@ -2,13 +2,13 @@
 @section('content')
 
 <div class="row">
-    <div class="offset-1 col-md-10">
+    <div class="col-md-12">
         <div class="card flex-fill">
             <table class="table table-hover dataTable zero-configuration my-0">
                 <thead>
                     <tr>
                         <th>NIK</th>
-                        <th>Name</th>
+                        <th>Nama</th>
                         <th class="d-none d-xl-table-cell">Username</th>
                         <th class="d-none d-xl-table-cell">No Telp.</th>
                         <th class="d-none d-xl-table-cell">Jenis Kelamin</th>

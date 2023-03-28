@@ -18,7 +18,7 @@ class RegisterController extends Controller
 
     public function storePengaduan(Request $request)
     {
-        // $input =$request->all();
+        
 
         // dd($input);
         // Masyarakat::create($input);

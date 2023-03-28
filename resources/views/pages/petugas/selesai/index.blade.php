@@ -38,7 +38,7 @@
                             <span class="badge bg-warning">Terverikasi</span>
                             @break
                             @case($v->status == 'proses')
-                            <span class="badge bg-success">On Progress</span>
+                            <span class="badge bg-success">Dalam Proses</span>
                             @break
                             @case($v->status == 'selesai')
                             <span class="badge bg-success">Selesai</span>

@@ -8,7 +8,7 @@
             <table class="table table-hover dataTable zero-configuration my-0">
                 <thead>
                     <tr>
-                        <th>Date</th>
+                        <th>Tanggal</th>
                         <th class="d-none d-xl-table-cell">NIK</th>
                         <th class="d-none d-xl-table-cell">Laporan</th>
                         <th>Image</th>
@@ -33,7 +33,7 @@
                             <span class="badge bg-warning">Terverikasi</span>
                             @break
                             @case($item->status == 'proses')
-                            <span class="badge bg-success">On Progress</span>
+                            <span class="badge bg-success">Dalam Proses</span>
                             @break
                             @case($item->status == 'selesai')
                             <span class="badge bg-danger">Selesai</span>

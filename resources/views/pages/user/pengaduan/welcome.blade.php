@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Pengaduan Masyarakat</title>
+  <title>Pengaduan Masyarakat Cisarua</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -65,7 +65,7 @@
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
           <h1>Welcome To Website
-            PENGADUAN MASYARAKAT</h1>
+            PENGADUAN MASYARAKAT CISARUA</h1>
           <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quas temporibus, quaerat enim tempore eveniet dicta fugiat aliquid ea modi facilis itaque suscipit, eius sint reprehenderit. Fuga error doloribus quo.</h2>
           <div class="d-flex justify-content-center justify-content-lg-start">
             <a  href="{{ url('form-login') }}" class="btn-get-started scrollto">Laporkan Keluhan Anda</a>
@@ -292,7 +292,7 @@
   <footer id="footer">
     <div class="container footer-bottom clearfix ">
       <div class="copyright justify-content-center">
-        &copy; Copyright <strong><span>muhamadkosasih</span></strong>.2023
+        &copy; Copyright <strong><span>DivaPancaPerwira</span></strong>.2023
       </div>
     </div>
   </footer><!-- End Footer -->

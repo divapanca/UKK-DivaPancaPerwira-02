@@ -10,7 +10,7 @@
                 data-aos="fade-up" data-aos-delay="200">
                 <h1>PENGADUAN MASYARAKAT CISARUA</h1>
                 <div class="d-flex justify-content-center justify-content-lg-start">
-                    <a href="{{ url('pengaduan') }}" class="btn-get-started scrollto mb-5">Create Pengaduan</a>
+                    <a href="{{ url('pengaduan') }}" class="btn-get-started scrollto mb-5">Buat Pengaduan</a>
                 </div>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
@@ -91,7 +91,7 @@
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
-                <h2>ALL Masyarakat</h2>
+                <h2>Semua Masyarakat</h2>
             </div>
 
             <div class="row">
