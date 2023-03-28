@@ -34,7 +34,7 @@
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <h6>&nbsp;&nbsp;KEC.Cisarua KAB.Bogor PROV.Jawa Barat</h6>
+                        <h6>&nbsp;&nbsp;KEC.Cisarua  KAB.Bogor  PROV.Jawa Barat</h6>
                     </td>
                 </tr>
             </tbody>
@@ -51,11 +51,11 @@
             <tr>
                 <th>No</th>
                 <th>NIK</th>
-                <th>Tanggal Kejadian</th>
-                <th>Nama Pelapor</th>
+                <th>Tgl Kejadian</th>
+                <th>Nama</th>
                 <th>Isi Laporan</th>
                 <th>Tanggapan</th>
-                <th>Tanggal Tanggapan</th>
+                <th>Tgl Tanggapan</th>
                 <th>Status</th>
             </tr>
         </thead>

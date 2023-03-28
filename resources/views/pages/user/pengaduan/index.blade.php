@@ -38,7 +38,7 @@
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="name">Tanggal Kejadian</label>
-                                <input type="datetime" name="tgl_pengaduan" class="form-control" id="tgl_pengaduan" required>
+                                <input type="date" name="tgl_pengaduan" class="form-control" id="tgl_pengaduan" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="name">Foto</label>
